@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar.jsx';
 import HeroSection from './components/heroSection.jsx';
 import FeatureSection from './components/FeatureSection.jsx';
-
+import WorkFlow from './components/WorkFlow.jsx';
 export const App = () => {
   return (
     <div>
@@ -11,6 +11,7 @@ export const App = () => {
         <div className="max-w-7xl mx-auto pt-20 px-6">
            <HeroSection/>
            <FeatureSection/>
+           <WorkFlow />
         </div>
         
     </div>

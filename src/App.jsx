@@ -4,6 +4,7 @@ import HeroSection from './components/heroSection.jsx';
 import FeatureSection from './components/FeatureSection.jsx';
 import WorkFlow from './components/WorkFlow.jsx';
 import Pricing from './components/Pricing.jsx';
+import Testimonials from './components/Testimonials.jsx';
 
 export const App = () => {
   return (
@@ -13,8 +14,9 @@ export const App = () => {
         <div className="max-w-7xl mx-auto pt-20 px-6">
            <HeroSection/>
            <FeatureSection/>
-           <WorkFlow />
-           <Pricing />
+           <WorkFlow/>
+           <Pricing/>
+           <Testimonials/>
         </div>
         
     </div>

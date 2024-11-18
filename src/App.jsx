@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar.jsx';
 import HeroSection from './components/heroSection.jsx';
+import FeatureSection from './components/FeatureSection.jsx';
 
 export const App = () => {
   return (
@@ -8,7 +9,8 @@ export const App = () => {
         <Navbar/>
         {/* 7xl : 80rem/1280px */}
         <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection/>
+           <HeroSection/>
+           <FeatureSection/>
         </div>
         
     </div>

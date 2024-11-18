@@ -3,6 +3,8 @@ import Navbar from './components/Navbar.jsx';
 import HeroSection from './components/heroSection.jsx';
 import FeatureSection from './components/FeatureSection.jsx';
 import WorkFlow from './components/WorkFlow.jsx';
+import Pricing from './components/Pricing.jsx';
+
 export const App = () => {
   return (
     <div>
@@ -12,6 +14,7 @@ export const App = () => {
            <HeroSection/>
            <FeatureSection/>
            <WorkFlow />
+           <Pricing />
         </div>
         
     </div>
